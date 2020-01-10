@@ -79,6 +79,11 @@ class App extends Component {
                         {console.log(route)}
                       </div>
           }
+          <footer>
+            <a href='https://github.com/jmg0' className='justify-center'>
+              <h3>Created by James Garay</h3>
+            </a>
+          </footer>
         </div>
       );
   }
