@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css'
 
-const Card = ({ name, email, id, imgpath, campaign }) => {
+const Card = ({ name, email, id, imgpath, campaign, onRouteChange }) => {
   return (
-    <div className='tc grow bg-transparent br3 pa3 ma2 dib bw2 shadow-5'>
+    <div onClick={() => {onRouteChange(id)}} className='tc grow bg-transparent br3 pa3 ma2 dib bw2 shadow-5'>
       <img alt={name} src={imgpath} />
       <div>
         <h2 className='tc white-60 fw2'>{name}</h2>
