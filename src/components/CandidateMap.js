@@ -1,13 +1,11 @@
 import React from 'react';
 
-const CandidateMap = ({ name, mapLinks }) => {
-    const n = name;
-    let link = mapLinks[n];
+const CandidateMap = ({ id, mapLinks }) => {
+    const idNum = id;
+    let link = mapLinks[idNum];
     return (
         <div>
-            <h1>{n}</h1>
-            <h1>{link}</h1>
-            <iframe src={link} height='750px' width='1100px' frameBorder='0'></iframe>
+            <iframe title={idNum} src={link} height='750px' width='1200px' frameBorder='0'></iframe>
         </div>
     )
 };

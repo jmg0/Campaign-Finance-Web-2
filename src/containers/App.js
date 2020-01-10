@@ -54,23 +54,31 @@ class App extends Component {
     const candidateMaps = candidates.map(candidate => {
       return candidate.maplink
     });
-    const maxRoutes = 7;
+    const candidateNames = ['Joe Biden', 'Pete Buttigieg', 'Amy Klobuchar', 'Bernie Sanders', 'Donald Trump', 'Elizabeth Warren', 'Andrew Yang'];
+    const maxRoutes = candidateNames.length;
     return (
         <div className='tc'>
           <Particles className='particles' params={particlesOptions}/>
-          <h1 className='f-headline fw1'>Campaign Finance</h1>
           {
             route === 'home' ?
                 <div>
+                  <h1 className='mont'>2020 Presidential Candidate Campaign Contributions</h1>
                   <SearchBox searchChange={this.onSearchChange}/>
                   <CardList robots={filteredCandidates} onRouteChange={this.onRouteChange} />
                 </div>
                 :
                   route < maxRoutes ?
                       <div>
-                        <BackButton onBackButtonChange={this.onBackButtonChange} />
-                        <h1>Candidate specific page</h1>
-                        <CandidateMap name={route} mapLinks={candidateMaps} />
+                        <h1 className='f-subheadline fw1'>{candidateNames[route]}</h1>
+                        <div className='gridd'>
+                          <div className='item1'>
+                            <BackButton onBackButtonChange={this.onBackButtonChange} />
+                            <h1>{candidateNames[route]}</h1>
+                          </div>
+                          <div className='item2'>
+                            <CandidateMap id={route} mapLinks={candidateMaps} />
+                          </div>
+                        </div>
                       </div>
                       :
                       <div>
