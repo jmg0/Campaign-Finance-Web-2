@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@githubprimer/octicons-react": "^8.5.0",
+    "@primer/octicons": "^9.3.1",
+    "@primer/octicons-react": "^9.3.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-particles-js": "^2.7.0",
