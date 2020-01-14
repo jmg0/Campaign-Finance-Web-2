@@ -5,7 +5,7 @@ const CandidateMap = ({ id, mapLinks }) => {
     let link = mapLinks[idNum];
     return (
         <div>
-            <iframe title={idNum} src={link} height='750px' width='1200px' frameBorder='0'></iframe>
+            <iframe title={idNum} src={link} height='650px' width='1000px' frameBorder='0'></iframe>
         </div>
     )
 };

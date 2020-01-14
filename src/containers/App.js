@@ -8,7 +8,6 @@ import {candidates} from "../candidates";
 import BackButton from "../components/BackButton";
 import CandidateMap from "../components/CandidateMap";
 import Octicon from "@primer/octicons-react";
-import Scroll from "../components/Scroll";
 
 const particlesOptions = {
   particles: {
@@ -71,11 +70,20 @@ class App extends Component {
                 :
                   route < maxRoutes ?
                       <div>
-                        <h1 className='f-subheadline fw1'>{candidateNames[route]}</h1>
+                        {/*<h1 className='f-subheadline fw1'>{candidateNames[route]}</h1>*/}
                         <div className='gridd'>
                           <div className='item1'>
-                            <BackButton onBackButtonChange={this.onBackButtonChange} />
-                            <h1>{candidateNames[route]}</h1>
+                            <div className='info'>
+                              <BackButton className='botn' onBackButtonChange={this.onBackButtonChange} />
+                              <h1>{candidateNames[route]}</h1>
+                            </div>
+                            <div className='row1'>
+                              <h2>Contribution Total - $17,111,000.43</h2>
+                            </div>
+                            <div className='row2'>
+                              <h3>Itemized Total - $17,111,000.43</h3>
+                              <h3>Non-itemized Total - $17,111,000.43</h3>
+                            </div>
                           </div>
                           <div className='item2'>
                             <CandidateMap id={route} mapLinks={candidateMaps} />
