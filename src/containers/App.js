@@ -8,6 +8,7 @@ import {candidates} from "../candidates";
 import BackButton from "../components/BackButton";
 import CandidateMap from "../components/CandidateMap";
 import Octicon from "@primer/octicons-react";
+import Scroll from "../components/Scroll";
 
 const particlesOptions = {
   particles: {
@@ -63,7 +64,7 @@ class App extends Component {
           {
             route === 'home' ?
                 <div>
-                  <h1 className='mont'>2020 Presidential Candidate Campaign Contributions</h1>
+                  <h1 className='mont'>2020 Presidential Campaign Contributions</h1>
                   <SearchBox searchChange={this.onSearchChange}/>
                   <CardList robots={filteredCandidates} onRouteChange={this.onRouteChange} />
                 </div>
