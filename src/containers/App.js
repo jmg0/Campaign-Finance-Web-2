@@ -73,16 +73,26 @@ class App extends Component {
                         {/*<h1 className='f-subheadline fw1'>{candidateNames[route]}</h1>*/}
                         <div className='gridd'>
                           <div className='item1'>
-                            <div className='info'>
+                            <div className='toprow'>
                               <BackButton className='botn' onBackButtonChange={this.onBackButtonChange} />
+
+                            </div>
+                            <div className='info'>
+                              <img alt={candidateNames[route]} src={candidates[route].imgpath} height='150px' width='150px' />
                               <h1>{candidateNames[route]}</h1>
                             </div>
                             <div className='row1'>
-                              <h2>Contribution Total - $17,111,000.43</h2>
+                              <p> </p>
+                              <h2>Contribution Total - {candidates[route].contributionTotal}</h2>
                             </div>
                             <div className='row2'>
-                              <h3>Itemized Total - $17,111,000.43</h3>
-                              <h3>Non-itemized Total - $17,111,000.43</h3>
+                              <h3>Itemized Total - {candidates[route].itemizedTotal}</h3>
+                            </div>
+                            <div className='row5'>
+                              <h3>Non-itemized Total - {candidates[route].nonItemizedTotal}</h3>
+                            </div>
+                            <div className='row6'>
+                              <h2>Independent Contributors - {candidates[route].numContributors}</h2>
                             </div>
                           </div>
                           <div className='item2'>

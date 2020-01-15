@@ -4,3 +4,9 @@ body {
   font-family: 'IBM Plex Mono', monospace;
   background: linear-gradient(to left, rgb(24, 27, 27) 0%, rgba(26, 29, 29, 0.99) 100%); /* w3c */
 }
+
+.botn {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 25px;
+}

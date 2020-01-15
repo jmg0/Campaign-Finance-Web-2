@@ -34,15 +34,20 @@ h2 {
 
 .item1 {
   grid-column-start: 1;
-  justify-self: stretch;
+  justify-self: center;
   display: grid;
-  grid-template-rows: 30% 9% 12% 12% 37%;
+  grid-template-rows: 10% 30% 25% 10% 10% 15%;
   padding-left: 30px;
 }
 
 .item2 {
   grid-column-start: 2;
   justify-self: stretch;
+}
+
+.toprow {
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 
 .info {
@@ -52,10 +57,35 @@ h2 {
   align-content: center;
 }
 
+.row1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  color: #bebebe;
+  display: grid;
+  grid-template-rows: 40% 60%;
+}
 .row2 {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 300;
   color: #bebebe;
+  display: grid;
+  grid-template-rows: 40% 60%;
+}
+
+.row5 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  color: #bebebe;
+  display: grid;
+  grid-template-rows: 40% 60%;
+}
+
+.row6 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  color: #bebebe;
+  display: grid;
+  grid-template-rows: 40% 60%;
 }
 
 footer {
@@ -63,4 +93,10 @@ footer {
   height: 170px;
   justify-content: center;
   align-items: center;
+}
+
+.botn {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
 }
