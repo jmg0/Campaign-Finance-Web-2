@@ -36,7 +36,7 @@ h2 {
   grid-column-start: 1;
   justify-self: center;
   display: grid;
-  grid-template-rows: 10% 30% 25% 10% 10% 15%;
+  grid-template-rows: 10% 30% 9% 6% 15% 30%;
   padding-left: 30px;
 }
 
@@ -52,7 +52,7 @@ h2 {
 
 .info {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 28% 72%;
   justify-content: center;
   align-content: center;
 }
@@ -62,7 +62,7 @@ h2 {
   font-weight: 300;
   color: #bebebe;
   display: grid;
-  grid-template-rows: 40% 60%;
+  grid-template-rows: 60% 40%;
 }
 .row2 {
   font-family: 'IBM Plex Mono', monospace;
@@ -70,6 +70,7 @@ h2 {
   color: #bebebe;
   display: grid;
   grid-template-rows: 40% 60%;
+  grid-template-columns: 8% 99%;
 }
 
 .row5 {
@@ -77,7 +78,7 @@ h2 {
   font-weight: 300;
   color: #bebebe;
   display: grid;
-  grid-template-rows: 40% 60%;
+  grid-template-rows: 35% 65%;
 }
 
 .row6 {
@@ -86,6 +87,7 @@ h2 {
   color: #bebebe;
   display: grid;
   grid-template-rows: 40% 60%;
+  grid-template-columns: 6% 99%;
 }
 
 footer {
@@ -99,4 +101,28 @@ footer {
   display: flex;
   align-items: center;
   margin-top: 25px;
+}
+
+.slightlybigger {
+  font-size: 26px;
+}
+
+.i1 {
+  grid-row-start: 1;
+  display: grid;
+  grid-template-columns: 21% 84%;
+}
+
+.i2 {
+  grid-row-start: 2;
+  display: grid;
+  grid-template-columns: 16% 88%;
+}
+
+.sub1 {
+  grid-column-start: 2;
+}
+
+.sub2 {
+  grid-column-start: 2;
 }

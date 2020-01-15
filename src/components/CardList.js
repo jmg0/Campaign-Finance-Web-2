@@ -15,6 +15,8 @@ const CardList = ({ robots, onRouteChange }) => {
               imgpath={robots[i].imgpath}
               campaign={robots[i].campaign}
               onRouteChange={onRouteChange}
+              ih={robots[i].ih}
+              iw={robots[i].iw}
               />
           );
         })

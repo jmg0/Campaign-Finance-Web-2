@@ -78,21 +78,27 @@ class App extends Component {
 
                             </div>
                             <div className='info'>
-                              <img alt={candidateNames[route]} src={candidates[route].imgpath} height='150px' width='150px' />
-                              <h1>{candidateNames[route]}</h1>
+                              <img alt={candidateNames[route]} src={candidates[route].imgpath2} height='150px' width='150px' />
+                              <h1 className='center'>{candidateNames[route]}</h1>
                             </div>
                             <div className='row1'>
-                              <p> </p>
-                              <h2>Contribution Total - {candidates[route].contributionTotal}</h2>
+                              <h2 className='slightlybigger underline'>Individual Contributions</h2>
                             </div>
                             <div className='row2'>
-                              <h3>Itemized Total - {candidates[route].itemizedTotal}</h3>
+                              <p></p>
+                              <h2>Total - {candidates[route].contributionTotal}</h2>
                             </div>
                             <div className='row5'>
-                              <h3>Non-itemized Total - {candidates[route].nonItemizedTotal}</h3>
+                              <div className='i1'>
+                                <h4 className='sub1'>Itemized - {candidates[route].itemizedTotal}</h4>
+                              </div>
+                              <div className='i2'>
+                                <h4 className='sub2'>Unitemized - {candidates[route].nonItemizedTotal}</h4>
+                              </div>
                             </div>
                             <div className='row6'>
-                              <h2>Independent Contributors - {candidates[route].numContributors}</h2>
+                              <p></p>
+                              <h2>Contributors - {candidates[route].numContributors}</h2>
                             </div>
                           </div>
                           <div className='item2'>
