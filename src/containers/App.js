@@ -127,14 +127,22 @@ class App extends Component {
                       </div>
                       :
                           <div>
-                            <BackButton onBackButtonChange={this.onBackButtonChange} />
-                            <About />
+                            <h1 className='mont'>2020 Presidential Campaign Contributions</h1>
+                            <hr />
+                            <div className='flex'>
+                              <div className='bbut'>
+                                <BackButton onBackButtonChange={this.onBackButtonChange} />
+                              </div>
+                              <div className='divv'>
+                                <About />
+                              </div>
+                            </div>
                           </div>
           }
           <footer>
             <div className='justify-start'>
               <div className='inline-flex'>
-                <h5 className='pointer' onClick={this.onRouteChange}>About </h5>
+                <h5 className='pointer' onClick={this.onRouteChange}>About</h5>
                 <h5 className='demarc'>*</h5>
                 <h5>Created by James Garay</h5>
               </div>
