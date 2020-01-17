@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Campaign Finance Analysis",
+  "name": "Analysis of Individual Contributions to Presidential Campaigns in 2019",
   "icons": [
     {
       "src": "favicon.ico",
