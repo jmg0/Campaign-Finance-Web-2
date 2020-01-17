@@ -8,6 +8,7 @@ import {candidates} from "../candidates";
 import BackButton from "../components/BackButton";
 import CandidateMap from "../components/CandidateMap";
 import Octicon from "@primer/octicons-react";
+import ReactTooltip from 'react-tooltip'
 
 const particlesOptions = {
   particles: {
@@ -82,7 +83,8 @@ class App extends Component {
                               <h1 className='center'>{candidateNames[route]}</h1>
                             </div>
                             <div className='row1'>
-                              <h2 className='slightlybigger underline'>Individual Contributions</h2>
+                              <h2 className='slightlybigger underline' data-tip='tooltip'>Individual Contributions</h2>
+                              <ReactTooltip place="top" type="dark" effect="solid">All contributions from individuals to the campaign in 2019.</ReactTooltip>
                             </div>
                             <div className='row2'>
                               <p></p>
@@ -90,10 +92,12 @@ class App extends Component {
                             </div>
                             <div className='row5'>
                               <div className='i1'>
-                                <h4 className='sub1'>Itemized - {candidates[route].itemizedTotal}</h4>
+                                <h4 className='sub1' data-tip='tt1'>Itemized - {candidates[route].itemizedTotal}</h4>
+                                <ReactTooltip place="top" type="dark" effect="solid">All individual contributions reported by the campaign.</ReactTooltip>
                               </div>
                               <div className='i2'>
-                                <h4 className='sub2'>Unitemized - {candidates[route].nonItemizedTotal}</h4>
+                                <h4 className='sub2' data-tip='tt2'>Unitemized - {candidates[route].nonItemizedTotal}</h4>
+                                <ReactTooltip place="top" type="dark" effect="solid">Campaigns are only required to report contributions over $200.00. Smaller contributions must be recorded and tabulated, but can be reported as a lump sum of unitemized contributions.</ReactTooltip>
                               </div>
                             </div>
                             <div className='row6'>
