@@ -7,7 +7,7 @@ const Card = ({ name, email, id, imgpath, campaign, onRouteChange, ih, iw }) => 
       <img alt={name} src={imgpath} height={ih} width={iw} />
       <div>
         <h2 className='tc white-60 fw2'>{name}</h2>
-        <a className='white-60 fw2 no-underline' href={email}>{campaign}</a>
+        <a className='white-60 fw2' href={email}>{campaign}</a>
       </div>
     </div>
   );
