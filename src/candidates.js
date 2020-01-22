@@ -11,9 +11,9 @@ export const candidates = [
     campaign: 'Joe Biden for President',
     maplink: 'https://jmg0.github.io/map2/',
     contributionTotal: '$37,705,533.76',
-    itemizedTotal: '$10,000,000.00',
-    nonItemizedTotal: '$10,000,000.00',
-    numContributors: '10,000'
+    itemizedTotal: '$24,433,703.09',
+    nonItemizedTotal: '$13,271,830.67',
+    numContributors: '25,858'
   },
   {
     id: 1,
@@ -26,10 +26,10 @@ export const candidates = [
     imgpath2: 'https://pbs.twimg.com/profile_images/1212231802934439936/gW1B7ih2.jpg',
     campaign: 'Pete Buttigieg for President',
     maplink: 'https://jmg0.github.io/map2/',
-    contributionTotal: '$10,000,000.00',
-    itemizedTotal: '$10,000,000.00',
-    nonItemizedTotal: '$10,000,000.00',
-    numContributors: '10,000'
+    contributionTotal: '$51,500,393.28',
+    itemizedTotal: '$27,018,894.07',
+    nonItemizedTotal: '$24,481,499.21',
+    numContributors: '42,863'
   },
   {
     id: 2,
@@ -42,10 +42,10 @@ export const candidates = [
     imgpath2: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Amy_Klobuchar.jpg',
     campaign: 'Amy for America',
     maplink: 'https://jmg0.github.io/maptestfinal2/',
-    contributionTotal: '$10,000,000.00',
-    itemizedTotal: '$10,000,000.00',
-    nonItemizedTotal: '$10,000,000.00',
-    numContributors: '10,000'
+    contributionTotal: '$13,913,564.72',
+    itemizedTotal: '$8,415,694.41',
+    nonItemizedTotal: '$5,497,870.31',
+    numContributors: '10,070'
   },
   {
     id: 3,
@@ -58,10 +58,10 @@ export const candidates = [
     imgpath2: 'https://cdn.ballotpedia.org/images/b/b6/Bernie_Sanders_Square.jpg',
     campaign: 'Bernie 2020',
     maplink: 'https://jmg0.github.io/map2/',
-    contributionTotal: '$10,000,000.00',
-    itemizedTotal: '$10,000,000.00',
-    nonItemizedTotal: '$10,000,000.00',
-    numContributors: '10,000'
+    contributionTotal: '$74,163,040.74',
+    itemizedTotal: '$18,589,645.38',
+    nonItemizedTotal: '$55,573,395.36',
+    numContributors: '68,953'
   },
   {
     id: 4,
@@ -90,10 +90,10 @@ export const candidates = [
     imgpath2: 'https://api.time.com/wp-content/uploads/2015/06/grob_warren_0720.jpg?w=600&quality=85',
     campaign: 'Warren For President',
     maplink: 'https://jmg0.github.io/map2/',
-    contributionTotal: '$10,000,000.00',
-    itemizedTotal: '$10,000,000.00',
-    nonItemizedTotal: '$10,000,000.00',
-    numContributors: '10,000'
+    contributionTotal: '$60,210,497.55',
+    itemizedTotal: '$17,849,107.16',
+    nonItemizedTotal: '$42,361,390.39',
+    numContributors: '43,480'
   },
   {
     id: 6,
@@ -106,9 +106,9 @@ export const candidates = [
     imgpath2: 'https://educationvotes.nea.org/wp-content/uploads/2019/04/AndrewYang-270x294.jpg',
     campaign: 'Yang 2020',
     maplink: 'https://jmg0.github.io/map2/',
-    contributionTotal: '$10,000,000.00',
-    itemizedTotal: '$10,000,000.00',
-    nonItemizedTotal: '$10,000,000.00',
-    numContributors: '10,000'
+    contributionTotal: '$14,533,614.17',
+    itemizedTotal: '$4,605,903.68',
+    nonItemizedTotal: '$9,927,710.49',
+    numContributors: '11,837'
   }
 ];
