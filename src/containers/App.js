@@ -87,7 +87,7 @@ class App extends Component {
                               <ReactTooltip id='conts' place="right" type="dark" effect="solid">
                                 <p>All contributions from individuals to the {candidateNames[route]} campaign since 01-01-2019 are detailed below.</p>
                                 <p>These totals exclude certain contributions to PACs and other committees that are not subject to reporting.</p>
-                                <p>See About page for more details.</p>
+                                <p>Click on the About page below for more details.</p>
                               </ReactTooltip>
                             </div>
                             <div className='row2'>
@@ -107,7 +107,7 @@ class App extends Component {
                                   <p>Campaigns are only required to report contributions over $200.00.</p>
                                   <p>Smaller contributions must be recorded and tabulated, but can be reported as a single sum of unitemized contributions.</p>
                                   <p>Contributions recorded in this category contain no information about the contributors, so they are not displayed on the map.</p>
-                                  <p>See About page for more details.</p>
+                                  <p>Click on the About page below for more details.</p>
                                 </ReactTooltip>
                               </div>
                             </div>
