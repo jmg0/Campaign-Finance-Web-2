@@ -79,14 +79,14 @@ class App extends Component {
 
                             </div>
                             <div className='info'>
-                              <img alt={candidateNames[route]} src={candidates[route].imgpath2} height='150px' width='150px' />
+                              <img alt={candidateNames[route]} src={candidates[route].imgpath2} height='150px' width='170px' />
                               <h1 className='center'>{candidateNames[route]}</h1>
                             </div>
                             <div className='row1'>
                               <h2 className='slightlybigger underline' data-tip data-for='conts'>Individual Contributions</h2>
                               <ReactTooltip id='conts' place="right" type="dark" effect="solid">
-                                <p>All contributions from individuals to the {candidateNames[route]} campaign in 2019 are detailed below.</p>
-                                <p>These exclude certain contributions to PACs and other committees that are not subject to reporting.</p>
+                                <p>All contributions from individuals to the {candidateNames[route]} campaign since 01-01-2019 are detailed below.</p>
+                                <p>These totals exclude certain contributions to PACs and other committees that are not subject to reporting.</p>
                                 <p>See About page for more details.</p>
                               </ReactTooltip>
                             </div>
@@ -98,7 +98,7 @@ class App extends Component {
                               <div className='i1'>
                                 <h4 className='sub1' data-tip data-for='itemized'>Itemized - {candidates[route].itemizedTotal}</h4>
                                 <ReactTooltip id='itemized' place="right" type="dark" effect="solid">
-                                  <p>All individual contributions reported by the campaign.</p>
+                                  <p>All individual contributions reported by the campaign. These are the contributions displayed on the map.</p>
                                 </ReactTooltip>
                               </div>
                               <div className='i2'>
@@ -115,7 +115,7 @@ class App extends Component {
                               <p></p>
                               <h2 data-tip data-for='contributors'>Contributors - {candidates[route].numContributors}</h2>
                               <ReactTooltip id='contributors' place="right" type="dark" effect="solid">
-                                <p>The number of unique individuals who contributed to the {candidateNames[route]} campaign in 2019.</p>
+                                <p>The number of unique individuals who have contributed to the {candidateNames[route]} campaign since 01-01-2019.</p>
                                 <p>This only includes itemized contributors, as no contributor information is reported for unitemized contributions.</p>
                               </ReactTooltip>
                             </div>
