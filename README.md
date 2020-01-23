@@ -1,3 +1,3 @@
 # Campaign Finance Web
 
-Building website to display campaign finance analysis
+Website that displays campaign finance analysis
