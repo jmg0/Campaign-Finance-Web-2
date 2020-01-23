@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Campaign-Finance-Web-2/static/css/main.5057379c.chunk.css",
+    "main.js": "/Campaign-Finance-Web-2/static/js/main.f88377b9.chunk.js",
+    "main.js.map": "/Campaign-Finance-Web-2/static/js/main.f88377b9.chunk.js.map",
+    "runtime-main.js": "/Campaign-Finance-Web-2/static/js/runtime-main.61d1475e.js",
+    "runtime-main.js.map": "/Campaign-Finance-Web-2/static/js/runtime-main.61d1475e.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/Campaign-Finance-Web-2/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.a75b4c08.chunk.js": "/Campaign-Finance-Web-2/static/js/2.a75b4c08.chunk.js",
+    "static/js/2.a75b4c08.chunk.js.map": "/Campaign-Finance-Web-2/static/js/2.a75b4c08.chunk.js.map",
+    "index.html": "/Campaign-Finance-Web-2/index.html",
+    "precache-manifest.0c124b55e517752d64f9a7f55f55a78e.js": "/Campaign-Finance-Web-2/precache-manifest.0c124b55e517752d64f9a7f55f55a78e.js",
+    "service-worker.js": "/Campaign-Finance-Web-2/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/Campaign-Finance-Web-2/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.5057379c.chunk.css.map": "/Campaign-Finance-Web-2/static/css/main.5057379c.chunk.css.map",
+    "static/js/2.a75b4c08.chunk.js.LICENSE": "/Campaign-Finance-Web-2/static/js/2.a75b4c08.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61d1475e.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.a75b4c08.chunk.js",
+    "static/css/main.5057379c.chunk.css",
+    "static/js/main.f88377b9.chunk.js"
+  ]
+}
