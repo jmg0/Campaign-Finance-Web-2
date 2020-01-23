@@ -110,7 +110,7 @@ footer {
 .i1 {
   grid-row-start: 1;
   display: grid;
-  grid-template-columns: 21% 84%;
+  grid-template-columns: 20% 84%;
 }
 
 .i2 {

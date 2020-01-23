@@ -1,5 +1,7 @@
-p {
+.abo {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
-    color: #bebebe;
+    color: #c1c1c1;
+    line-height: 1.7;
+    font-size: 19px;
 }

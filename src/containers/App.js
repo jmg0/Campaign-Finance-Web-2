@@ -99,6 +99,7 @@ class App extends Component {
                                 <h4 className='sub1' data-tip data-for='itemized'>Itemized - {candidates[route].itemizedTotal}</h4>
                                 <ReactTooltip id='itemized' place="right" type="dark" effect="solid">
                                   <p>All individual contributions reported by the campaign. These are the contributions displayed on the map.</p>
+                                  <p>Grayer dots represent smaller contributions, while brighter green dots represent larger contributions.</p>
                                 </ReactTooltip>
                               </div>
                               <div className='i2'>
@@ -141,10 +142,13 @@ class App extends Component {
           }
           <footer>
             <div className='justify-start'>
-              <div className='inline-flex'>
-                <h5 className='pointer' onClick={this.onRouteChange}>About</h5>
-                <h5 className='demarc'>*</h5>
-                <h5>Created by James Garay</h5>
+              <div>
+                <div className=''>
+                  <h2 className='pointer white-70 ba pa1 justify-start grow' onClick={this.onRouteChange}>About</h2>
+                </div>
+                <a className='no-underline color-inherit' href='https://github.com/jmg0/Campaign-Finance-Analysis'>
+                  <h4>Created by James Garay</h4>
+                </a>
               </div>
               <div>
                 <a href='https://github.com/jmg0/Campaign-Finance-Analysis'>
