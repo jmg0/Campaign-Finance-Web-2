@@ -1,0 +1,13 @@
+.writing {
+    font-size: 1vw;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .writing {
+        font-size: 1.5vw;
+    }
+    .pico {
+        width: 30vw;
+        height: 20vw;
+    }
+}

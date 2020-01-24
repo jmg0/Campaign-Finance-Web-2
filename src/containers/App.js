@@ -64,8 +64,8 @@ class App extends Component {
           {
             route === 'home' ?
                 <div>
-                  <h1 className='mont'>2020 Presidential Campaign Contributions</h1>
-                  <SearchBox searchChange={this.onSearchChange}/>
+                  <h1 className='heading'>2020 Presidential Campaign Contributions</h1>
+                  <SearchBox className='search' searchChange={this.onSearchChange}/>
                   <CardList robots={filteredCandidates} onRouteChange={this.onRouteChange} />
                 </div>
                 :
@@ -128,7 +128,7 @@ class App extends Component {
                       </div>
                       :
                           <div>
-                            <h1 className='mont'>2020 Presidential Campaign Contributions</h1>
+                            <h1 className=''>2020 Presidential Campaign Contributions</h1>
                             <hr />
                             <div className='flex'>
                               <div className='bbut'>
@@ -144,7 +144,7 @@ class App extends Component {
             <div className='justify-start'>
               <div>
                 <div className=''>
-                  <h2 className='pointer white-70 ba pa1 justify-start grow' onClick={this.onRouteChange}>About</h2>
+                  <h2 className='pointer white-70 ba pa1 justify-start grow aboutbtn' onClick={this.onRouteChange}>About</h2>
                 </div>
                 <a className='no-underline color-inherit' href='https://github.com/jmg0/Campaign-Finance-Analysis'>
                   <h4>Created by James Garay</h4>

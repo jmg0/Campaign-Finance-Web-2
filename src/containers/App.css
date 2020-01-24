@@ -12,10 +12,6 @@ h2 {
   color: #bebebe;
 }
 
-.mont {
-  font-size: 53px;
-}
-
 .particles {
   position: fixed;
   top: 0;
@@ -141,4 +137,23 @@ footer {
   text-align: left;
   margin-left: 40px;
   margin-right: 100px;
+}
+
+.heading {
+  font-size-adjust: inherit;
+  font-size: 3.4vw;
+}
+
+@media only screen and (max-device-width: 500px) {
+  .heading {
+    font-size-adjust: inherit;
+    font-size: 6vw;
+  }
+
+  .aboutbtn {
+    width: 40vw;
+    font-size: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

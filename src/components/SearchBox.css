@@ -1,0 +1,7 @@
+@media only screen and (max-device-width: 500px) {
+    .searcher {
+        height: 1vw;
+        width: 1vw;
+        visibility: hidden;
+    }
+}
