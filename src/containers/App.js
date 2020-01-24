@@ -79,11 +79,11 @@ class App extends Component {
 
                             </div>
                             <div className='info'>
-                              <img alt={candidateNames[route]} src={candidates[route].imgpath2} height='150px' width='170px' />
-                              <h1 className='center'>{candidateNames[route]}</h1>
+                              <img className='thumb' alt={candidateNames[route]} src={candidates[route].imgpath2} />
+                              <h1 className='center name'>{candidateNames[route]}</h1>
                             </div>
                             <div className='row1'>
-                              <h2 className='slightlybigger underline' data-tip data-for='conts'>Individual Contributions</h2>
+                              <h2 className='underline conth' data-tip data-for='conts'>Individual Contributions</h2>
                               <ReactTooltip id='conts' place="right" type="dark" effect="solid">
                                 <p>All contributions from individuals to the {candidateNames[route]} campaign since 01-01-2019 are detailed below.</p>
                                 <p>These totals exclude certain contributions to PACs and other committees that are not subject to reporting.</p>
@@ -92,18 +92,18 @@ class App extends Component {
                             </div>
                             <div className='row2'>
                               <p></p>
-                              <h2>Total - {candidates[route].contributionTotal}</h2>
+                              <h2 className='totcontr'>Total - {candidates[route].contributionTotal}</h2>
                             </div>
                             <div className='row5'>
                               <div className='i1'>
-                                <h4 className='sub1' data-tip data-for='itemized'>Itemized - {candidates[route].itemizedTotal}</h4>
+                                <h4 className='sub1 mized' data-tip data-for='itemized'>Itemized - {candidates[route].itemizedTotal}</h4>
                                 <ReactTooltip id='itemized' place="right" type="dark" effect="solid">
                                   <p>All individual contributions reported by the campaign. These are the contributions displayed on the map.</p>
                                   <p>Grayer dots represent smaller contributions, while brighter green dots represent larger contributions.</p>
                                 </ReactTooltip>
                               </div>
                               <div className='i2'>
-                                <h4 className='sub2' data-tip data-for='unitemized'>Unitemized - {candidates[route].nonItemizedTotal}</h4>
+                                <h4 className='sub2 mized' data-tip data-for='unitemized'>Unitemized - {candidates[route].nonItemizedTotal}</h4>
                                 <ReactTooltip id='unitemized' place="right" type="dark" effect="solid">
                                   <p>Campaigns are only required to report contributions over $200.00.</p>
                                   <p>Smaller contributions must be recorded and tabulated, but can be reported as a single sum of unitemized contributions.</p>
@@ -114,7 +114,7 @@ class App extends Component {
                             </div>
                             <div className='row6'>
                               <p></p>
-                              <h2 data-tip data-for='contributors'>Contributors - {candidates[route].numContributors}</h2>
+                              <h2 className='totcontr' data-tip data-for='contributors'>Contributors - {candidates[route].numContributors}</h2>
                               <ReactTooltip id='contributors' place="right" type="dark" effect="solid">
                                 <p>The number of unique individuals who have contributed to the {candidateNames[route]} campaign since 01-01-2019.</p>
                                 <p>This only includes itemized contributors, as no contributor information is reported for unitemized contributions.</p>

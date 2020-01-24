@@ -1,0 +1,12 @@
+.map {
+    height: 45vw;
+    width: 62vw;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .map {
+        height: 90vw;
+        width: 100vw;
+
+    }
+}

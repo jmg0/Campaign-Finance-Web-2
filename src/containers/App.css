@@ -99,10 +99,6 @@ footer {
   margin-top: 25px;
 }
 
-.slightlybigger {
-  font-size: 26px;
-}
-
 .i1 {
   grid-row-start: 1;
   display: grid;
@@ -144,6 +140,31 @@ footer {
   font-size: 3.4vw;
 }
 
+.thumb {
+  height: 10vw;
+  width: 13vw;
+}
+
+.name {
+  font-size-adjust: inherit;
+  font-size: 2vw;
+}
+
+.conth {
+  font-size-adjust: inherit;
+  font-size: 1.5vw;
+}
+
+.totcontr {
+  font-size-adjust: inherit;
+  font-size: 1.4vw;
+}
+
+.mized {
+  font-size-adjust: inherit;
+  font-size: 1vw;
+}
+
 @media only screen and (max-device-width: 500px) {
   .heading {
     font-size-adjust: inherit;
@@ -155,5 +176,104 @@ footer {
     font-size: 5vw;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .thumb {
+    width: 30vw;
+    height: 20vw;
+  }
+
+  .name {
+    font-size-adjust: inherit;
+    font-size: 6vw;
+  }
+
+  .conth {
+    font-size-adjust: inherit;
+    font-size: 4vw;
+    grid-row-start: 1;
+  }
+
+  .totcontr {
+    font-size-adjust: inherit;
+    font-size: 2.5vw;
+  }
+
+  .mized {
+    font-size-adjust: inherit;
+    font-size: 1.5vw;
+  }
+
+  .gridd {
+    display: grid;
+    margin-top: 50px;
+    grid-template-rows: 32% 68%;
+    grid-template-columns: 1% 100%;
+    justify-content: space-between;
+  }
+
+  .item1 {
+    grid-row-start: 1;
+    justify-self: stretch;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+  }
+
+  .item2 {
+    grid-row-start: 2;
+    justify-self: center;
+    height: available;
+    width: available;
+  }
+
+  .toprow {
+    grid-column-start: 1;
+  }
+
+  .info {
+    grid-column-start: 1;
+    justify-content: center;
+    align-content: center;
+    padding-top: 70px;
+  }
+
+  .row1 {
+    grid-column-start: 2;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    color: #bebebe;
+  }
+  .row2 {
+    grid-column-start: 2;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    color: #bebebe;
+  }
+
+  .row5 {
+    grid-column-start: 2;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    color: #bebebe;
+  }
+
+  .row6 {
+    grid-column-start: 2;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    color: #bebebe;
+  }
+
+  .i1 {
+  }
+
+  .i2 {
+  }
+
+  .sub1 {
+  }
+
+  .sub2 {
   }
 }
