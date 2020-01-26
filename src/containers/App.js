@@ -114,7 +114,7 @@ class App extends Component {
                             </div>
                             <div className='row6'>
                               <p></p>
-                              <h2 className='totcontr' data-tip data-for='contributors'>Contributors - {candidates[route].numContributors}</h2>
+                              <h2 className='totcontr contribut' data-tip data-for='contributors'>Contributors - {candidates[route].numContributors}</h2>
                               <ReactTooltip id='contributors' place="right" type="dark" effect="solid">
                                 <p>The number of unique individuals who have contributed to the {candidateNames[route]} campaign since 01-01-2019.</p>
                                 <p>This only includes itemized contributors, as no contributor information is reported for unitemized contributions.</p>

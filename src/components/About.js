@@ -5,7 +5,7 @@ const About = () => {
 
     return (
         <div>
-            <h1>Explanations, Pitfalls, and Conclusions</h1>
+            <h1 className='exp'>Explanations, Pitfalls, and Conclusions</h1>
             <p className='abo'>
                 This project analyzes and illustrates individual contributions to presidential campaigns pursuing the 2020 presidential election. Campaign contribution data is reported by each campaign to the <a className='color-inherit' href='https://www.fec.gov'>Federal Election Commission</a>, who then provide the data to the public. The project analyzed contributions made from January 1, 2019 to present, and will continually update as future data become available.
             </p>
